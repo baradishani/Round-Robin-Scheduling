@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.gantt-chart {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gantt-box {
+  border: 1px solid #818a94;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-right: 10px;
+  text-align: center;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gantt-box span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  width: 150px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.add-process {
+  background-color: #ced4da;
+  color: black;
+}
+
+.calculate {
+  background-color: #28a745;
+}
+
+.output-section {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #dee2e6;
+}
+
+td {
+  border-bottom: 1px solid #dee2e6;
+}
